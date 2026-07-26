@@ -1,0 +1,29 @@
+
+---
+
+# Application Navigation Flow
+
+```text
+Landing Page
+      │
+      ▼
+Register/Login
+      │
+      ▼
+Dashboard
+      │
+      ├── Browse Courses
+      │
+      ├── Course Details
+      │
+      ├── Enroll
+      │
+      ├── Course Player
+      │
+      ├── Complete Lessons
+      │
+      ├── Generate AI Summary
+      │
+      ├── Generate AI Quiz
+      │
+      └── Certificate

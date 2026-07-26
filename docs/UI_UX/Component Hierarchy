@@ -1,0 +1,28 @@
+App
+│
+├── Layout
+│
+├── Navbar
+│
+├── Footer
+│
+├── Pages
+│
+│     ├── Home
+│     ├── Courses
+│     ├── Login
+│     ├── Register
+│     ├── Dashboard
+│
+└── Components
+      │
+      ├── Button
+      ├── Card
+      ├── Modal
+      ├── Input
+      ├── Badge
+      ├── Progress Bar
+      ├── Course Card
+      ├── Sidebar
+      ├── Video Player
+      └── Charts

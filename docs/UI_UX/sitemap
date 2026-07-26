@@ -1,0 +1,36 @@
+Home
+│
+├── Courses
+│     ├── Course Details
+│     └── Enroll
+│
+├── About
+│
+├── Contact
+│
+├── Login
+│
+├── Register
+│
+└── Dashboard
+      │
+      ├── Student
+      │      ├── My Courses
+      │      ├── Learning Journey
+      │      ├── Progress
+      │      ├── Profile
+      │      └── Settings
+      │
+      ├── Instructor
+      │      ├── Dashboard
+      │      ├── My Courses
+      │      ├── Add Course
+      │      ├── Students
+      │      └── Analytics
+      │
+      └── Admin
+             ├── Dashboard
+             ├── Users
+             ├── Courses
+             ├── Reports
+             └── Settings

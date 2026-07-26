@@ -1,0 +1,38 @@
+client/
+│
+├── public/
+│
+├── src/
+│   ├── assets/
+│   │
+│   ├── components/
+│   │     ├── common/
+│   │     ├── ui/
+│   │     ├── course/
+│   │     ├── dashboard/
+│   │     ├── forms/
+│   │     └── layout/
+│   │
+│   ├── pages/
+│   │
+│   ├── layouts/
+│   │
+│   ├── routes/
+│   │
+│   ├── hooks/
+│   │
+│   ├── services/
+│   │
+│   ├── store/
+│   │
+│   ├── types/
+│   │
+│   ├── utils/
+│   │
+│   ├── constants/
+│   │
+│   ├── App.tsx
+│   └── main.tsx
+│
+├── package.json
+└── vite.config.ts
