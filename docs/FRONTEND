@@ -1,38 +1,33 @@
 client/
-│
-├── public/
-│
-├── src/
-│   ├── assets/
-│   │
-│   ├── components/
-│   │     ├── common/
-│   │     ├── ui/
-│   │     ├── course/
-│   │     ├── dashboard/
-│   │     ├── forms/
-│   │     └── layout/
-│   │
-│   ├── pages/
-│   │
-│   ├── layouts/
-│   │
-│   ├── routes/
-│   │
-│   ├── hooks/
-│   │
-│   ├── services/
-│   │
-│   ├── store/
-│   │
-│   ├── types/
-│   │
-│   ├── utils/
-│   │
-│   ├── constants/
-│   │
-│   ├── App.tsx
-│   └── main.tsx
-│
-├── package.json
-└── vite.config.ts
+└── src/
+    ├── assets/
+    │   ├── images/
+    │   ├── icons/
+    │   └── fonts/
+    │
+    ├── components/
+    │   ├── ui/
+    │   ├── layout/
+    │   ├── common/
+    │   ├── course/
+    │   ├── dashboard/
+    │   └── forms/
+    │
+    ├── pages/
+    │   ├── public/
+    │   ├── auth/
+    │   ├── student/
+    │   ├── instructor/
+    │   └── admin/
+    │
+    ├── layouts/
+    ├── hooks/
+    ├── routes/
+    ├── services/
+    ├── store/
+    ├── types/
+    ├── utils/
+    ├── constants/
+    ├── styles/
+    ├── App.tsx
+    └── main.tsx
