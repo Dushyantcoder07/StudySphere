@@ -1,0 +1,151 @@
+.color-grid {
+
+    display: grid;
+
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+
+    gap: 1.5rem;
+
+}
+
+.color-card {
+
+    height: 140px;
+
+    border-radius: var(--radius-lg);
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    font-weight: 600;
+
+    box-shadow: var(--shadow-sm);
+
+}
+
+.primary {
+
+    background: var(--color-primary);
+
+    color: white;
+
+}
+
+.secondary {
+
+    background: var(--color-secondary);
+
+}
+
+.neutral {
+
+    background: var(--color-neutral);
+
+    color: white;
+
+}
+
+.background {
+
+    background: var(--color-background);
+
+    border: 1px solid #ddd;
+
+}
+
+.btn-secondary {
+
+    background: var(--color-secondary);
+
+    color: var(--color-primary);
+
+}
+
+.card {
+
+    background: white;
+
+    padding: 2rem;
+
+    border-radius: var(--radius-lg);
+
+    box-shadow: var(--shadow-sm);
+
+    transition: .3s;
+
+}
+
+.card:hover {
+
+    transform: translateY(-5px);
+
+    box-shadow: var(--shadow-md);
+
+}
+
+.form-group {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: .5rem;
+
+}
+
+.form-group input {
+
+    padding: 1rem;
+
+    border: 1px solid #ddd;
+
+    border-radius: var(--radius-md);
+
+    outline: none;
+
+}
+
+.form-group input:focus {
+
+    border-color: var(--color-primary);
+
+}
+
+.badge {
+
+    display: inline-block;
+
+    padding: .5rem 1rem;
+
+    background: #FEF3C7;
+
+    color: #92400E;
+
+    border-radius: 999px;
+
+    font-size: .9rem;
+
+    font-weight: 600;
+
+}
+
+.section-title {
+
+    max-width: 650px;
+
+    margin: 0 auto 3rem;
+
+    text-align: center;
+
+}
+
+.section-title p {
+
+    margin-top: 1rem;
+
+    color: var(--text-secondary);
+
+}
